@@ -15,7 +15,7 @@ from comfy.cli_args import args
 fundamental_classes = []
 fundamental_node = node_wrapper(fundamental_classes)
 
-@fundamental_node
+# @fundamental_node
 class SleepNodeAny:
     FUNCTION = "sleep"
     RETURN_TYPES = (anytype,)
@@ -35,7 +35,7 @@ class SleepNodeAny:
                 "inputs": (anytype, {"default": 0.0}),
             }
         }
-@fundamental_node
+# @fundamental_node
 class SleepNodeImage:
     FUNCTION = "sleep"
     RETURN_TYPES = (anytype,)

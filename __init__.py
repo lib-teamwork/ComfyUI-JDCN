@@ -54,11 +54,11 @@ from .LogicUtil.math_nodes import CLASS_MAPPINGS as MathMapping, CLASS_NAMES as 
 from .LogicUtil.io_node import CLASS_MAPPINGS as IOMapping, CLASS_NAMES as IONames
 
 NODE_CLASS_MAPPINGS = {}
-NODE_CLASS_MAPPINGS.update(AnyListMappings)
-NODE_CLASS_MAPPINGS.update(AnyListHelperMappings)
-NODE_CLASS_MAPPINGS.update(AnyFileSelectorMappings)
-NODE_CLASS_MAPPINGS.update(AnyFileListRandomMappings)
-NODE_CLASS_MAPPINGS.update(AnyCheckpointLoaderMappings)
+# NODE_CLASS_MAPPINGS.update(AnyListMappings)
+# NODE_CLASS_MAPPINGS.update(AnyListHelperMappings)
+# NODE_CLASS_MAPPINGS.update(AnyFileSelectorMappings)
+# NODE_CLASS_MAPPINGS.update(AnyFileListRandomMappings)
+# NODE_CLASS_MAPPINGS.update(AnyCheckpointLoaderMappings)
 NODE_CLASS_MAPPINGS.update(BatchImageLoadFromListMappings)
 NODE_CLASS_MAPPINGS.update(BatchLatentLoadFromListMappings)
 NODE_CLASS_MAPPINGS.update(BatchLatentLoadFromDirMappings)
